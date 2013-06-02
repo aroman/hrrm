@@ -18,11 +18,6 @@ body {
     font-family: 'Geo', sans-serif;
 }
 
-body .primary-button {
-    background: #02a6eb;
-    color: #fff;
-}
-
 .splash {
     margin: 2em auto 0;
     padding: 3em 0.5em;
@@ -34,6 +29,7 @@ body .primary-button {
     margin: 0em 0;
     line-height: 1.2em;
 }
+
 .splash .splash-subhead {
     color: #666;
     font-weight: 300;
@@ -43,29 +39,35 @@ body .primary-button {
     font-size: 150%;
 }
 
-
-.content .content-subhead {
-    padding-bottom: 0.3em;
-    margin: 0;
-    border-bottom: 2px solid #eee;
-    display: inline-block;
+.cta-pic {
+    height: 200px;
+    margin-top: -60px;
+    margin-bottom: 10px;
 }
 
-.content .content-ribbon {
-    margin: 3em;
+.form-box {
+    text-align: center;
+    font-size: 120%;
     border-bottom: 1px solid #eee;
 }
 
-.ribbon {
-    background: #eee;
-    text-align: center;
-    padding: 2em;
-    color: #999;
+.form-box .pure-button {
+    margin-top: 20px;
+    background-color: #61B842;
+    color: white;
+    vertical-align: top;
+    font-size: 125%;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px rgb(35, 111, 31);
 }
-    .ribbon h2 {
-        display: inline;
-        font-weight: normal;
-    }
+
+.pure-form input {
+    margin-bottom: 15px;
+}
+
+.pure-button .primary-button button {
+    /*margin-top: -100px;*/
+}
 
 .footer {
     background: #111;
